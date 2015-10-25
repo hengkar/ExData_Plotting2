@@ -47,8 +47,9 @@ You can read each of the two files using the ```readRDS()``` function in R. For 
 ## This first line will likely take a few seconds. Be patient!
 NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
-as long as each of those files is in your current working directory (check by calling dir() and see if those files are in the listing).
 ```
+
+as long as each of those files is in your current working directory (check by calling dir() and see if those files are in the listing).
 
 ## Assignment
 
@@ -74,10 +75,10 @@ You must address the following questions and tasks in your exploratory analysis.
 
 For each plot you should
 
-*Construct the plot and save it to a PNG file.
+* Construct the plot and save it to a PNG file.
 
-*Create a separate R code file (plot1.R, plot2.R, etc.) that constructs the corresponding plot, i.e. code in plot1.R constructs the plot1.png plot. Your code file should include code for reading the data so that the plot can be fully reproduced. You must also include the code that creates the PNG file. Only include the code for a single plot (i.e. plot1.R should only include code for producing plot1.png)
+* Create a separate R code file (plot1.R, plot2.R, etc.) that constructs the corresponding plot, i.e. code in plot1.R constructs the plot1.png plot. Your code file should include code for reading the data so that the plot can be fully reproduced. You must also include the code that creates the PNG file. Only include the code for a single plot (i.e. plot1.R should only include code for producing plot1.png)
 
-*Upload the PNG file on the Assignment submission page
+* Upload the PNG file on the Assignment submission page
 
-*Copy and paste the R code from the corresponding R file into the text box at the appropriate point in the peer assessment.
+* Copy and paste the R code from the corresponding R file into the text box at the appropriate point in the peer assessment.
